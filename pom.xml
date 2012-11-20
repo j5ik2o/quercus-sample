@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>jp.co.dwango</groupId>
+	<artifactId>quercus-sample</artifactId>
+	<packaging>war</packaging>
+	<version>4.0.25</version>
+	<name>Quercus Sample</name>
+
+
+	<repositories>
+		<repository>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>dwango-quercus-repos</id>
+			<name>Dwango Quercus Repository</name>
+			<url>https://raw.github.com/dwango/quercus/master/repos/</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.caucho</groupId>
+			<artifactId>quercus</artifactId>
+			<version>4.0.25</version>
+		</dependency>
+	</dependencies>
+</project>
